@@ -8,8 +8,7 @@
 
 #import "RootViewController.h"
 #import "Person.h"
-#import <ReactiveObjC.h>
-#import <Masonry.h>
+
 /*
  block是预先准备的一段代码，什么时候执行,我们并不知道
  */
@@ -36,6 +35,10 @@
         make.size.mas_equalTo(CGSizeMake(100, 40));
     }];
     
+   
+}
+
+- (void)setEvent {
     /*
      防止循环引用的理解
      @weakify(self);//为了打破
@@ -47,7 +50,7 @@
         NSLog(@"这是输入实时监听%@",x);
         @strongify(self);
     }];
-   
+    
     
     //button的targe事件
     [[self.button rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(__kindof UIControl * _Nullable x) {

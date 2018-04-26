@@ -6,6 +6,7 @@ target 'RAC深入' do
   # use_frameworks!
  pod 'ReactiveObjC', '~> 3.1.0'
   pod 'Masonry', '~> 1.1.0'
+  pod 'AFNetworking', '~> 3.2.0'
   # Pods for RAC深入
 
 end

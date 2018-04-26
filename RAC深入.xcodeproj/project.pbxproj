@@ -13,6 +13,12 @@
 		3412F83C209017EC00452091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F83B209017EC00452091 /* main.m */; };
 		3412F84420901A3300452091 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F84320901A3300452091 /* RootViewController.m */; };
 		3412F84720901E8C00452091 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F84620901E8C00452091 /* Person.m */; };
+		344400002091854A008AF4BF /* YingyongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFFF2091854A008AF4BF /* YingyongViewController.m */; };
+		344400032091BC15008AF4BF /* AdvanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400022091BC15008AF4BF /* AdvanceViewController.m */; };
+		3444FFF42090BE58008AF4BF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF32090BE58008AF4BF /* SecondViewController.m */; };
+		3444FFF72090C222008AF4BF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF62090C222008AF4BF /* BaseViewController.m */; };
+		3444FFFA2090D5FF008AF4BF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF92090D5FF008AF4BF /* ThirdViewController.m */; };
+		3444FFFD20917201008AF4BF /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFFC20917201008AF4BF /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		3412F84320901A3300452091 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3412F84520901E8C00452091 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3412F84620901E8C00452091 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		344400012091BC15008AF4BF /* AdvanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceViewController.h; sourceTree = "<group>"; };
+		344400022091BC15008AF4BF /* AdvanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceViewController.m; sourceTree = "<group>"; };
+		3444FFF22090BE58008AF4BF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3444FFF32090BE58008AF4BF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3444FFF52090C222008AF4BF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3444FFF62090C222008AF4BF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3444FFF82090D5FF008AF4BF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3444FFF92090D5FF008AF4BF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3444FFFB20917201008AF4BF /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		3444FFFC20917201008AF4BF /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		3444FFFE2091854A008AF4BF /* YingyongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YingyongViewController.h; sourceTree = "<group>"; };
+		3444FFFF2091854A008AF4BF /* YingyongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YingyongViewController.m; sourceTree = "<group>"; };
 		84A5B6B4B9748B21ABEB6A1F /* libPods-RAC深入.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC深入.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE2FDE8F1F124E2100D3C5 /* Pods-RAC深入.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC深入.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC深入/Pods-RAC深入.debug.xcconfig"; sourceTree = "<group>"; };
 		FA2C295CA339F0A6785C57F7 /* Pods-RAC深入.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC深入.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC深入/Pods-RAC深入.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +91,18 @@
 				3412F84320901A3300452091 /* RootViewController.m */,
 				3412F84520901E8C00452091 /* Person.h */,
 				3412F84620901E8C00452091 /* Person.m */,
+				3444FFF22090BE58008AF4BF /* SecondViewController.h */,
+				3444FFF32090BE58008AF4BF /* SecondViewController.m */,
+				3444FFF52090C222008AF4BF /* BaseViewController.h */,
+				3444FFF62090C222008AF4BF /* BaseViewController.m */,
+				3444FFF82090D5FF008AF4BF /* ThirdViewController.h */,
+				3444FFF92090D5FF008AF4BF /* ThirdViewController.m */,
+				3444FFFB20917201008AF4BF /* FourViewController.h */,
+				3444FFFC20917201008AF4BF /* FourViewController.m */,
+				3444FFFE2091854A008AF4BF /* YingyongViewController.h */,
+				3444FFFF2091854A008AF4BF /* YingyongViewController.m */,
+				344400012091BC15008AF4BF /* AdvanceViewController.h */,
+				344400022091BC15008AF4BF /* AdvanceViewController.m */,
 			);
 			path = "RAC深入";
 			sourceTree = "<group>";
@@ -105,6 +135,8 @@
 				3412F825209017EC00452091 /* Sources */,
 				3412F826209017EC00452091 /* Frameworks */,
 				3412F827209017EC00452091 /* Resources */,
+				6964FDD57CFDC4E54F080D6C /* [CP] Embed Pods Frameworks */,
+				ADFCFB4ECC34CA99F7844295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +210,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6964FDD57CFDC4E54F080D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC深入/Pods-RAC深入-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADFCFB4ECC34CA99F7844295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC深入/Pods-RAC深入-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -185,10 +247,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3444FFF42090BE58008AF4BF /* SecondViewController.m in Sources */,
+				3444FFF72090C222008AF4BF /* BaseViewController.m in Sources */,
+				344400002091854A008AF4BF /* YingyongViewController.m in Sources */,
+				3444FFFD20917201008AF4BF /* FourViewController.m in Sources */,
 				3412F83C209017EC00452091 /* main.m in Sources */,
 				3412F82E209017EC00452091 /* AppDelegate.m in Sources */,
 				3412F84720901E8C00452091 /* Person.m in Sources */,
 				3412F84420901A3300452091 /* RootViewController.m in Sources */,
+				3444FFFA2090D5FF008AF4BF /* ThirdViewController.m in Sources */,
+				344400032091BC15008AF4BF /* AdvanceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
