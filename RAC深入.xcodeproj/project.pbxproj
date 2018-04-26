@@ -15,6 +15,8 @@
 		3412F84720901E8C00452091 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F84620901E8C00452091 /* Person.m */; };
 		344400002091854A008AF4BF /* YingyongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFFF2091854A008AF4BF /* YingyongViewController.m */; };
 		344400032091BC15008AF4BF /* AdvanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400022091BC15008AF4BF /* AdvanceViewController.m */; };
+		344400062091E2FD008AF4BF /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400052091E2FD008AF4BF /* MVVMViewController.m */; };
+		344400092091F8FF008AF4BF /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400082091F8FF008AF4BF /* LoginViewModel.m */; };
 		3444FFF42090BE58008AF4BF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF32090BE58008AF4BF /* SecondViewController.m */; };
 		3444FFF72090C222008AF4BF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF62090C222008AF4BF /* BaseViewController.m */; };
 		3444FFFA2090D5FF008AF4BF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF92090D5FF008AF4BF /* ThirdViewController.m */; };
@@ -34,6 +36,10 @@
 		3412F84620901E8C00452091 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		344400012091BC15008AF4BF /* AdvanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceViewController.h; sourceTree = "<group>"; };
 		344400022091BC15008AF4BF /* AdvanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceViewController.m; sourceTree = "<group>"; };
+		344400042091E2FD008AF4BF /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		344400052091E2FD008AF4BF /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		344400072091F8FF008AF4BF /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		344400082091F8FF008AF4BF /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		3444FFF22090BE58008AF4BF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3444FFF32090BE58008AF4BF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3444FFF52090C222008AF4BF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 				3444FFFF2091854A008AF4BF /* YingyongViewController.m */,
 				344400012091BC15008AF4BF /* AdvanceViewController.h */,
 				344400022091BC15008AF4BF /* AdvanceViewController.m */,
+				344400042091E2FD008AF4BF /* MVVMViewController.h */,
+				344400052091E2FD008AF4BF /* MVVMViewController.m */,
+				344400072091F8FF008AF4BF /* LoginViewModel.h */,
+				344400082091F8FF008AF4BF /* LoginViewModel.m */,
 			);
 			path = "RAC深入";
 			sourceTree = "<group>";
@@ -251,9 +261,11 @@
 				3444FFF72090C222008AF4BF /* BaseViewController.m in Sources */,
 				344400002091854A008AF4BF /* YingyongViewController.m in Sources */,
 				3444FFFD20917201008AF4BF /* FourViewController.m in Sources */,
+				344400062091E2FD008AF4BF /* MVVMViewController.m in Sources */,
 				3412F83C209017EC00452091 /* main.m in Sources */,
 				3412F82E209017EC00452091 /* AppDelegate.m in Sources */,
 				3412F84720901E8C00452091 /* Person.m in Sources */,
+				344400092091F8FF008AF4BF /* LoginViewModel.m in Sources */,
 				3412F84420901A3300452091 /* RootViewController.m in Sources */,
 				3444FFFA2090D5FF008AF4BF /* ThirdViewController.m in Sources */,
 				344400032091BC15008AF4BF /* AdvanceViewController.m in Sources */,

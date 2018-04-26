@@ -11,7 +11,7 @@
 #import "SecondViewController.h"
 #import "FourViewController.h"
 #import "YingyongViewController.h"
-
+#import "MVVMViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -25,7 +25,7 @@
 //    RootViewController *rootVC = [[RootViewController alloc]init];
 //    self.window.rootViewController = rootVC;
 //    [self.window makeKeyAndVisible];
-    YingyongViewController *secondVC = [[YingyongViewController alloc]init];
+    MVVMViewController *secondVC = [[MVVMViewController alloc]init];
     self.window.rootViewController = secondVC;
     [self.window makeKeyAndVisible];
     return YES;
