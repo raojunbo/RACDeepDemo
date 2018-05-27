@@ -12,15 +12,9 @@
 		3412F836209017EC00452091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3412F835209017EC00452091 /* Assets.xcassets */; };
 		3412F83C209017EC00452091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F83B209017EC00452091 /* main.m */; };
 		3412F84420901A3300452091 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F84320901A3300452091 /* RootViewController.m */; };
-		3412F84720901E8C00452091 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412F84620901E8C00452091 /* Person.m */; };
-		344400002091854A008AF4BF /* YingyongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFFF2091854A008AF4BF /* YingyongViewController.m */; };
-		344400032091BC15008AF4BF /* AdvanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400022091BC15008AF4BF /* AdvanceViewController.m */; };
-		344400062091E2FD008AF4BF /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400052091E2FD008AF4BF /* MVVMViewController.m */; };
-		344400092091F8FF008AF4BF /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 344400082091F8FF008AF4BF /* LoginViewModel.m */; };
-		3444FFF42090BE58008AF4BF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF32090BE58008AF4BF /* SecondViewController.m */; };
-		3444FFF72090C222008AF4BF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF62090C222008AF4BF /* BaseViewController.m */; };
-		3444FFFA2090D5FF008AF4BF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFF92090D5FF008AF4BF /* ThirdViewController.m */; };
-		3444FFFD20917201008AF4BF /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444FFFC20917201008AF4BF /* FourViewController.m */; };
+		342123BF20B95586007C03DC /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342123BE20B95586007C03DC /* RACSubjectViewController.m */; };
+		342123C220B955B6007C03DC /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342123C120B955B6007C03DC /* RACSignalViewController.m */; };
+		342123C520B96476007C03DC /* RACApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342123C420B96476007C03DC /* RACApplicationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,24 +26,12 @@
 		3412F83B209017EC00452091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3412F84220901A3300452091 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		3412F84320901A3300452091 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		3412F84520901E8C00452091 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		3412F84620901E8C00452091 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		344400012091BC15008AF4BF /* AdvanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceViewController.h; sourceTree = "<group>"; };
-		344400022091BC15008AF4BF /* AdvanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceViewController.m; sourceTree = "<group>"; };
-		344400042091E2FD008AF4BF /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
-		344400052091E2FD008AF4BF /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
-		344400072091F8FF008AF4BF /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		344400082091F8FF008AF4BF /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
-		3444FFF22090BE58008AF4BF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3444FFF32090BE58008AF4BF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3444FFF52090C222008AF4BF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		3444FFF62090C222008AF4BF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		3444FFF82090D5FF008AF4BF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		3444FFF92090D5FF008AF4BF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		3444FFFB20917201008AF4BF /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
-		3444FFFC20917201008AF4BF /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
-		3444FFFE2091854A008AF4BF /* YingyongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YingyongViewController.h; sourceTree = "<group>"; };
-		3444FFFF2091854A008AF4BF /* YingyongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YingyongViewController.m; sourceTree = "<group>"; };
+		342123BD20B95586007C03DC /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
+		342123BE20B95586007C03DC /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
+		342123C020B955B6007C03DC /* RACSignalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSignalViewController.h; sourceTree = "<group>"; };
+		342123C120B955B6007C03DC /* RACSignalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalViewController.m; sourceTree = "<group>"; };
+		342123C320B96476007C03DC /* RACApplicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACApplicationViewController.h; sourceTree = "<group>"; };
+		342123C420B96476007C03DC /* RACApplicationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACApplicationViewController.m; sourceTree = "<group>"; };
 		84A5B6B4B9748B21ABEB6A1F /* libPods-RAC深入.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC深入.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE2FDE8F1F124E2100D3C5 /* Pods-RAC深入.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC深入.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC深入/Pods-RAC深入.debug.xcconfig"; sourceTree = "<group>"; };
 		FA2C295CA339F0A6785C57F7 /* Pods-RAC深入.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC深入.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC深入/Pods-RAC深入.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,29 +72,17 @@
 			children = (
 				3412F82C209017EC00452091 /* AppDelegate.h */,
 				3412F82D209017EC00452091 /* AppDelegate.m */,
+				3412F84220901A3300452091 /* RootViewController.h */,
+				3412F84320901A3300452091 /* RootViewController.m */,
+				342123C020B955B6007C03DC /* RACSignalViewController.h */,
+				342123C120B955B6007C03DC /* RACSignalViewController.m */,
+				342123BD20B95586007C03DC /* RACSubjectViewController.h */,
+				342123BE20B95586007C03DC /* RACSubjectViewController.m */,
+				342123C320B96476007C03DC /* RACApplicationViewController.h */,
+				342123C420B96476007C03DC /* RACApplicationViewController.m */,
 				3412F835209017EC00452091 /* Assets.xcassets */,
 				3412F83A209017EC00452091 /* Info.plist */,
 				3412F83B209017EC00452091 /* main.m */,
-				3412F84220901A3300452091 /* RootViewController.h */,
-				3412F84320901A3300452091 /* RootViewController.m */,
-				3412F84520901E8C00452091 /* Person.h */,
-				3412F84620901E8C00452091 /* Person.m */,
-				3444FFF22090BE58008AF4BF /* SecondViewController.h */,
-				3444FFF32090BE58008AF4BF /* SecondViewController.m */,
-				3444FFF52090C222008AF4BF /* BaseViewController.h */,
-				3444FFF62090C222008AF4BF /* BaseViewController.m */,
-				3444FFF82090D5FF008AF4BF /* ThirdViewController.h */,
-				3444FFF92090D5FF008AF4BF /* ThirdViewController.m */,
-				3444FFFB20917201008AF4BF /* FourViewController.h */,
-				3444FFFC20917201008AF4BF /* FourViewController.m */,
-				3444FFFE2091854A008AF4BF /* YingyongViewController.h */,
-				3444FFFF2091854A008AF4BF /* YingyongViewController.m */,
-				344400012091BC15008AF4BF /* AdvanceViewController.h */,
-				344400022091BC15008AF4BF /* AdvanceViewController.m */,
-				344400042091E2FD008AF4BF /* MVVMViewController.h */,
-				344400052091E2FD008AF4BF /* MVVMViewController.m */,
-				344400072091F8FF008AF4BF /* LoginViewModel.h */,
-				344400082091F8FF008AF4BF /* LoginViewModel.m */,
 			);
 			path = "RAC深入";
 			sourceTree = "<group>";
@@ -257,18 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3444FFF42090BE58008AF4BF /* SecondViewController.m in Sources */,
-				3444FFF72090C222008AF4BF /* BaseViewController.m in Sources */,
-				344400002091854A008AF4BF /* YingyongViewController.m in Sources */,
-				3444FFFD20917201008AF4BF /* FourViewController.m in Sources */,
-				344400062091E2FD008AF4BF /* MVVMViewController.m in Sources */,
+				342123C520B96476007C03DC /* RACApplicationViewController.m in Sources */,
 				3412F83C209017EC00452091 /* main.m in Sources */,
 				3412F82E209017EC00452091 /* AppDelegate.m in Sources */,
-				3412F84720901E8C00452091 /* Person.m in Sources */,
-				344400092091F8FF008AF4BF /* LoginViewModel.m in Sources */,
+				342123C220B955B6007C03DC /* RACSignalViewController.m in Sources */,
+				342123BF20B95586007C03DC /* RACSubjectViewController.m in Sources */,
 				3412F84420901A3300452091 /* RootViewController.m in Sources */,
-				3444FFFA2090D5FF008AF4BF /* ThirdViewController.m in Sources */,
-				344400032091BC15008AF4BF /* AdvanceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

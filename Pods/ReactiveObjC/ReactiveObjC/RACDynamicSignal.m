@@ -28,7 +28,6 @@
 + (RACSignal *)createSignal:(RACDisposable * (^)(id<RACSubscriber> subscriber))didSubscribe {
 	RACDynamicSignal *signal = [[self alloc] init];
 	signal->_didSubscribe = [didSubscribe copy];
-    //将disSubscribe的block存到信号对象里
 	return [signal setNameWithFormat:@"+createSignal:"];
 }
 

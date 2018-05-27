@@ -8,10 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
-#import "SecondViewController.h"
-#import "FourViewController.h"
-#import "YingyongViewController.h"
-#import "MVVMViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,13 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-//    RootViewController *rootVC = [[RootViewController alloc]init];
-//    self.window.rootViewController = rootVC;
-//    [self.window makeKeyAndVisible];
-    MVVMViewController *secondVC = [[MVVMViewController alloc]init];
-    self.window.rootViewController = secondVC;
+    RootViewController  *rootVC = [[RootViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:rootVC];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }
